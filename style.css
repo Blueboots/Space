@@ -1,0 +1,88 @@
+html {
+  background-color: #ffffff;
+  font-family: "Mr Eaves XL Modern", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+main {
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 32em;
+  text-align: justify;
+  font-size: 1em;
+
+}
+
+.downforce {
+  flex: 1;
+
+}
+
+
+.all_products {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-gap: 30px;
+
+}
+
+
+
+.product {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  border: solid medium grey;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.priority_product {
+  order: -1
+}
+
+
+.button {
+  -moz-appearance: button;
+  -webkit-appearance: button;
+  appearance: button;
+
+  background-color: #32b259;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #12652C;
+  color: white;
+}
+
+footer {
+
+  width: 100%;
+  height: 90px;
+  background-color: #282562;
+  color: white;
+
+}
