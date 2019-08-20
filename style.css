@@ -1,3 +1,15 @@
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    //*??????????*//
+}
+
+
 html {
   background-color: #ffffff;
   font-family: "Mr Eaves XL Modern", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -49,8 +61,12 @@ p {
   flex-wrap: nowrap;
   justify-content: flex-end;
   border: solid medium grey;
+  border-radius: 40px;
+  box-shadow: 0px 0px 22px 9px #d4d4d4;
   text-align: center;
   font-size: 1.5em;
+  width: 480px;
+  padding: 10px;
 }
 
 .priority_product {
@@ -62,10 +78,10 @@ p {
   -moz-appearance: button;
   -webkit-appearance: button;
   appearance: button;
-
   background-color: #32b259;
   color: white;
   padding: 15px 32px;
+  border-radius: 40px;
   text-align: center;
   text-decoration: none;
   font-size: 1rem;
@@ -85,4 +101,12 @@ footer {
   background-color: #282562;
   color: white;
 
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
 }
